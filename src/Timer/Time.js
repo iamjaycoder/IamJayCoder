@@ -17,6 +17,7 @@ const Time = () => {
    }, [])
 
     return (
+        <div className="time">
         <Container>
             <Wrapper>
                 <Counter>{counter}</Counter>
@@ -27,10 +28,10 @@ const Time = () => {
 
             </Wrapper>
         </Container>
+        </div>
     )
 }
-
-export default Time
+export default Time;
 
 const Container = styled.div`
 width: 100%;
@@ -74,4 +75,4 @@ transform: scale(1);
     color: #fff;
     transform: scale(1.2);
 }
-`;
+`
